@@ -21,12 +21,12 @@ function App() {
           <Header />
           <main className='AppBody'>
             <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='login/*' element={<Login />} />
-              <Route path='conta/*' element={<ProtectedRoute> <User /> </ProtectedRoute>} />
-              <Route path='foto/:id' element={<Photo />} />
-              <Route path='perfil/:user' element={<UserProfile />} />
-              <Route path='*' element={<NotFound />} />
+              <Route exact path='/' element={<Home />} />
+              <Route exact path='login/*' element={<Login />} />
+              <Route exact path='conta/*' element={<ProtectedRoute> <User /> </ProtectedRoute>} />
+              <Route exact path='foto/:id' element={<Photo />} />
+              <Route exact path='perfil/:user' element={<UserProfile />} />
+              <Route exact path='*' element={<NotFound />} />
             </Routes>
           </main>
           <Footer />
