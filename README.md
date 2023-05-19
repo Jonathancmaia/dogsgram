@@ -1,6 +1,6 @@
 # Dogsgram
 
-Bikcraft is a website developed in React.js for React.js Origamid course.
+Dogsgram is a website developed in React.js for React.js Origamid course.
 
 ## Origamid Certification
 
