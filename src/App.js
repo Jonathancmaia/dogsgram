@@ -21,11 +21,11 @@ function App() {
           <Header />
           <main className='AppBody'>
             <Routes>
-              <Route exact path='dogsgram/' element={<Home />} />
-              <Route exact path='dogsgram/login/*' element={<Login />} />
-              <Route exact path='dogsgram/conta/*' element={<ProtectedRoute> <User /> </ProtectedRoute>} />
-              <Route exact path='dogsgram/foto/:id' element={<Photo />} />
-              <Route exact path='dogsgram/perfil/:user' element={<UserProfile />} />
+              <Route exact path='/' element={<Home />} />
+              <Route exact path='login/*' element={<Login />} />
+              <Route exact path='conta/*' element={<ProtectedRoute> <User /> </ProtectedRoute>} />
+              <Route exact path='foto/:id' element={<Photo />} />
+              <Route exact path='perfil/:user' element={<UserProfile />} />
               <Route exact path='*' element={<NotFound />} />
             </Routes>
           </main>
