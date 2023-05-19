@@ -20,4 +20,4 @@ The course certification can be checked here: https://www.origamid.com/certifica
 
 ## See this online
 
-This project can be checked in https://jonathancmaia.github.io/dogsgram/#/conta/estatisticas.
+This project can be checked in https://jonathancmaia.github.io/dogsgram
